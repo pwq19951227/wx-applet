@@ -1,6 +1,85 @@
-<!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<view class="resume">
+    <view class="resume-top">
+      <image src="https://mypics.zhaopin.cn//avatar/2018/6/26/c83c7b30-b247-4a16-9ccb-634be952b556.jpg" class="resume-img" mode='aspectFill'></image>
+      <text class="resume-name">彭文齐 Web前端工程师</text>
+       <text class="resume-name">工作经验：3年</text>
+    </view>
+    <view class="resume-title">
+       <text>联系电话：15010016531</text>
+       <text>出生地：湖北省宜都市</text>
+       <text>坐标：北京市昌平区天通苑</text>
+       <text>邮箱：15010016531@163.com</text>
+    </view>
+    <view class="resume-list">
+       <text class="resume-listtop">教育背景：</text>
+       <view>2015.09 - 2019.6    湖北宜昌市广播电视大学</view>
+       <text>计算机科学与技术   本科 </text>
+    </view>
+     <view class="resume-list">
+       <text class="resume-listtop">所备技能：</text>
+       <view>1)前端技术：H5、JavaScript、vue.js、CSS、Jquery、webpack、element-ui、bootstrap、微信小程序</view>
+       <view>2)后端技术：C#、ASP.NET、NodeJS </view>
+       <view>3)项目管理工具：github/gitlab、svn、jira、wiki </view>
+       <view>4)数据库：SQL Server </view>
+    </view>
+     <view class="resume-list">
+       <text class="resume-listtop">工作经历：</text>
+       <view class="resume-miao">
+          <view class="resume-project">
+            <text class="resume-num">1</text>
+            <text>北京爱康国宾健康管理集团有限公司</text>
+          </view>
+          <view class="resume-title2">
+            <text>就职时间：2018.08-至今</text>
+            <text>职位：Web前端工程师</text>
+          </view>
+          <view class="resume-body">
+            <text class="resume-listtop2">项目经历：</text>
+            <view>1）爱康齿科患者端公众号项目，医患交流/在线预约/门店查询/会员卡</view>
+            <view>2）爱康齿科医生端公众号项目，医患交流/工作台/医生名片/运营拉新/常用语/报告解读</view>
+            <view>3）爱康齿科运营端项目</view>
+            <view>4）爱康齿科门店系统(CRM)</view>
+          </view>
+       </view>
+
+        <view class="resume-miao resume-miao2">
+          <view class="resume-project">
+            <text class="resume-num">2</text>
+            <text>北京腾飞克有限公司(飞卢小说网)</text>
+          </view>
+          <view class="resume-title2">
+            <text>就职时间：2016.7-2016.9 </text>
+            <text>职位：C#工程师</text>
+          </view>
+          <view class="resume-body">
+            <text class="resume-listtop2">项目经历：</text>
+            <view>1）飞卢小说官网移动端开发</view>
+            <view>2）飞卢论坛移动端开发</view>
+            <view>3）移动端VIP点充值系统</view>
+            <view>4）飞卢作家助手APP后端接口开发</view>
+          </view>
+       </view>
+
+     <view class="resume-miao resume-miao3">
+          <view class="resume-project">
+            <text class="resume-num">3</text>
+            <text>苏州伽勒信息科技有限公司</text>
+          </view>
+          <view class="resume-title2">
+            <text>就职时间：2015.7—2016.5</text>
+            <text>职位：C#工程师</text>
+          </view>
+          <view class="resume-body">
+            <text class="resume-listtop2">项目经历：</text>
+            <view>1）在线教育移动端项目 </view>
+            <view>2）来炫网APP后端接口开发</view>
+            <view>3）苏平行销系统(CRM) </view>
+          </view>
+       </view>
+    </view>
+
+    <view class="resume-list">
+       <text class="resume-listtop">自我评价：</text>
+       <text>本人性格乐观开朗，有自信，敢于创新，拥抱改变。有较强的自我管理能力和执行力，能够很快的适应环境。好相处，并有很强的团队合作能力。拥有一颗十分执着的心，将会以饱满的热情投入到工作中去。</text>
+    </view>
 </view>

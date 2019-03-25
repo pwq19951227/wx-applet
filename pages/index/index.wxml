@@ -7,11 +7,12 @@
     </block>
   </view>
   <view class="userDesc">
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      <text class="userinfo-p">工作经验：{{userDesc.work}}，web前端工程师</text>
+  <text class="userinfo-nickname">欢迎来到我的主页</text>
+      <!-- <text class="userinfo-nickname">{{userInfo.nickName}}</text> -->
+      <!-- <text class="userinfo-p">工作经验：{{userDesc.work}}，web前端工程师</text>
       <text class="userinfo-p">联系电话：{{userDesc.tel}}</text>
       <text class="userinfo-p">个人邮箱：{{userDesc.email}}</text>
       <text class="userinfo-p">求职状态：{{userDesc.status}}</text>
-      <text class="userinfo-p">所在地区：{{userDesc.address}}</text>
+      <text class="userinfo-p">所在地区：{{userDesc.address}}</text> -->
   </view>
 </view>

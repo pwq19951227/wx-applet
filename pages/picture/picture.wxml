@@ -1,10 +1,51 @@
 <!--logs.wxml-->
 <view class="">
     <view class="page__bd">
+        <view class='title'>天坛公园</view>
         <view class="weui-grids">
-            <block wx:for="{{imgList}}" wx:key="*this" wx:for-item='imgList'>
+            <block wx:for="{{tiantan}}" wx:key="*this" wx:for-item='tiantan'>
                 <navigator url="" class="weui-grid" hover-class="weui-grid_active">
-                  <image class="weui-grid__img" src="{{imgList}}" data-index='{{index}}' bindtap='previewImg' />
+                  <image class="weui-grid__img" src="{{tiantan}}" data-index='{{index}}' bindtap='previewImg' />
+                </navigator>
+            </block>
+        </view>
+        <view class='title'>园博园·春</view>
+        <view class="weui-grids">
+            <block wx:for="{{ybyc}}" wx:key="*this" wx:for-item='ybyc'>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                  <image class="weui-grid__img" src="{{ybyc}}" data-index='{{index}}' bindtap='previewImg2' />
+                </navigator>
+            </block>
+        </view>
+        <view class='title'>香山公园</view>
+        <view class="weui-grids">
+            <block wx:for="{{xs}}" wx:key="*this" wx:for-item='xs'>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                  <image class="weui-grid__img" src="{{xs}}" data-index='{{index}}' bindtap='previewImg6' />
+                </navigator>
+            </block>
+        </view>
+        <view class='title'>园博园·冬</view>
+        <view class="weui-grids">
+            <block wx:for="{{ybyd}}" wx:key="*this" wx:for-item='ybyd'>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                  <image class="weui-grid__img" src="{{ybyd}}" data-index='{{index}}' bindtap='previewImg3' />
+                </navigator>
+            </block>
+        </view>
+        <view class='title'>后海</view>
+        <view class="weui-grids">
+            <block wx:for="{{houhai}}" wx:key="*this" wx:for-item='houhai'>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                  <image class="weui-grid__img" src="{{houhai}}" data-index='{{index}}' bindtap='previewImg4' />
+                </navigator>
+            </block>
+        </view>
+        <view class='title'>秦皇岛</view>
+        <view class="weui-grids">
+            <block wx:for="{{qhd}}" wx:key="*this" wx:for-item='qhd'>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                  <image class="weui-grid__img" src="{{qhd}}" data-index='{{index}}' bindtap='previewImg5' />
                 </navigator>
             </block>
         </view>
