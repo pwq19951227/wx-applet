@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button> -->
+    <block>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="https://mypics.zhaopin.cn//avatar/2018/6/26/c83c7b30-b247-4a16-9ccb-634be952b556.jpg" mode="cover"></image>
+    </block>
+  </view>
+  <view class="userDesc">
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <text class="userinfo-p">工作经验：{{userDesc.work}}</text>
+      <text class="userinfo-p">联系电话：{{userDesc.tel}}</text>
+      <text class="userinfo-p">个人邮箱：{{userDesc.email}}</text>
+      <text class="userinfo-p">求职状态：{{userDesc.status}}</text>
+      <text class="userinfo-p">所在地区：{{userDesc.address}}</text>
+  </view>
+</view>

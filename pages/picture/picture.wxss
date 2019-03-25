@@ -1,0 +1,14 @@
+.container{
+  padding: 0
+}
+.page__bd{
+  width: 100%;
+}
+.weui-grid{
+  padding:0;
+}
+.weui-grid__img{
+  display:block;
+  width:100%;
+  height:20vh;
+}

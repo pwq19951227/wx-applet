@@ -1,0 +1,30 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userDesc{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.userinfo-avatar {
+  width: 158rpx;
+  height: 158rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  font-size: 40rpx;
+}
+.userinfo-p {
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+.usermotto {
+  margin-top: 200px;
+}
