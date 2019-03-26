@@ -1,22 +1,12 @@
-<!--pages/main/index.wxml-->
-<view class="container-box">
-    <view class="img-box">
-        <canvas bindtap="previewImg" hidden="{{canvasHidden}}" style="width: 686rpx;height: 686rpx;background:black;" canvas-id="mycanvas"/>
-        <!--<image bindtap="previewImg" mode="scaleToFill" src="{{imagePath}}"></image>-->
-    </view>
-    <form bindsubmit="formSubmit">
-        <view class="input-row">
-            <label>网址</label>
-            <input name='url' value='' type="text" maxlength="255" placeholder="{{placeholder}}"/>
-        </view>
-        <!--<view class="input-row">
-            <label>金额</label>
-            <input name="money" type="number" maxlength="7"  placeholder="1000000"/>
-        </view>-->
-        <button formType="submit" class="mybtn" type="primary">生成二维码</button>
-    </form>
+
+<canvas class='canvas' style="width:{{qrcodeWidth}}px; height:{{qrcodeWidth}}px;" canvas-id='canvas' bindlongtap='save'></canvas>
+
+<!-- image显示 -->
+<view class='tip'>长按保存</view>
+
+<view class="input-row">
+  <label>网址</label>
+  <input  bindinput='inputHandler' bindconfirm='confirmHandler' placeholder='输入需要转换为二维码的字符串' value='{{text}}'/>
 </view>
-<view hidden="{{maskHidden}}" class="mask"></view>
-<view class="canvas-box">
-    
-</view>
+
+<button bindtap='tapHandler' class="mybtn" type="primary">转为二维码</button>

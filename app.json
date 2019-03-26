@@ -13,23 +13,23 @@
   "tabBar": {
     "color": "#999",
     "backgroundColor": "#fafafa",
-    "selectedColor": "#333",
+    "selectedColor": "#1296db",
     "borderStyle": "white",
     "list": [
       {
-        "text": "二维码",
+        "text": "二维码生成器",
         "pagePath": "pages/QRcode/QRcode",
-        "iconPath": "static/tabs/首页.png",
-        "selectedIconPath": "static/tabs/首页-选中.png"
+        "iconPath": "static/tabs/二维码.png",
+        "selectedIconPath": "static/tabs/二维码-选中.png"
       },
       {
-        "text": "我的",
+        "text": "我的简介",
         "pagePath": "pages/desc/desc",
         "iconPath": "static/tabs/我的.png",
         "selectedIconPath": "static/tabs/我的-选中.png"
       },
       {
-        "text": "相册",
+        "text": "我的相册",
         "pagePath": "pages/picture/picture",
         "iconPath": "static/tabs/相册.png",
         "selectedIconPath": "static/tabs/相册-选中.png"
