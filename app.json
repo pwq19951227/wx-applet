@@ -1,7 +1,7 @@
 {
   "pages":[
+    "pages/QRcode/QRcode",
     "pages/desc/desc",
-    "pages/index/index",
     "pages/picture/picture"
   ],
   "window":{
@@ -17,8 +17,8 @@
     "borderStyle": "white",
     "list": [
       {
-        "text": "首页",
-        "pagePath": "pages/index/index",
+        "text": "二维码",
+        "pagePath": "pages/QRcode/QRcode",
         "iconPath": "static/tabs/首页.png",
         "selectedIconPath": "static/tabs/首页-选中.png"
       },
