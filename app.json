@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/QRcode/QRcode",
     "pages/desc/desc",
+    "pages/QRcode/QRcode",
     "pages/picture/picture"
   ],
   "window":{

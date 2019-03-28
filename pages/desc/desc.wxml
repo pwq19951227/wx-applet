@@ -12,7 +12,7 @@
     </view>
     <view class="resume-list">
        <text class="resume-listtop">教育背景：</text>
-       <view>2015.09 - 2019.6    湖北宜昌市广播电视大学</view>
+       <view>2015.09 - 2019.6    湖北广播电视大学</view>
        <text>计算机科学与技术   本科 </text>
     </view>
      <view class="resume-list">
@@ -48,7 +48,7 @@
             <text>北京腾飞克有限公司(飞卢小说网)</text>
           </view>
           <view class="resume-title2">
-            <text>就职时间：2016.7-2016.9 </text>
+            <text>就职时间：2016.5-2018.7 </text>
             <text>职位：C#工程师</text>
           </view>
           <view class="resume-body">
